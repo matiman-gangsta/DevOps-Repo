@@ -6,7 +6,6 @@ app.get('/', (req, res) => {
     res.json({ message: "Microservicio Operativo - Despliegue Exitoso", status: "OK" });
 });
 
-// Endpoint para simular una feature
 app.get('/version', (req, res) => {
     res.json({ version: "1.0.0", env: "Development" });
 });

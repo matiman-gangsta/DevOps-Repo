@@ -3,7 +3,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.json({ message: "Microservicio Operativo - Despliegue Exitoso", status: "OK" });
+  res.json({ 
+    message: "Bienvenido al Microservicio de ejemplo DevOps",
+    version: "1.1.0",
+    status: "Operativo",
+    author: "Matias Nazal"
 });
 
 app.get('/version', (req, res) => {

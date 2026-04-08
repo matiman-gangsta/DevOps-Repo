@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
     version: "1.1.0",
     status: "Operativo",
     author: "Matias Nazal"
+  });
 });
 
 app.get('/version', (req, res) => {

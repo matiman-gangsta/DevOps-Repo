@@ -21,6 +21,7 @@ Se utilizarán mensajes descriptivos siguiendo el estándar de *Conventional Com
 * `feat:` para la implementación de nuevas características.
 * `fix:` para la resolución de errores o bugs.
 * `docs:` para modificaciones exclusivamente en la documentación.
+* `chore:` para tareas de mantenimiento, configuración de herramientas o cambios en el pipeline de CI/CD.
 
 ### Flujos de Merge y Estrategias de Revisión 
 * Toda integración de código hacia las ramas `develop` o `main` debe realizarse obligatoriamente mediante un **Pull Request (PR)**.
